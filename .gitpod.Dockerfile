@@ -16,5 +16,6 @@ RUN apt update && \
     rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 RUN apt install -yq firefox \
     pulseaudio \
-    pavucontrol
+    pavucontrol \
+    netcat
 USER gitpod
