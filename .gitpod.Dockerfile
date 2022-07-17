@@ -24,6 +24,7 @@ RUN apt install -yq firefox \
     language-pack-ko \
     fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core \
     ffmpeg
+COPY docker_copy/apache2.conf /etc/apache2/apache2.conf
 
 USER gitpod
 
