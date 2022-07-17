@@ -14,7 +14,7 @@ RUN apt update && \
     npm i -g yarn && \
 #    cd /workspace/gitpod-test/crates/test-app && yarn && \
     rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
-RUN apt install -yq firefox && \
-    pulseaudio && \
+RUN apt install -yq firefox \
+    pulseaudio \
     pavucontrol
 USER gitpod
