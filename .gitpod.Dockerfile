@@ -18,5 +18,7 @@ RUN apt install -yq firefox \
     pulseaudio \
     pavucontrol \
     netcat \
-    kazam
+    kazam \
+    language-pack-zh* \
+    chinese*
 USER gitpod
