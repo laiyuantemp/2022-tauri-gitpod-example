@@ -20,6 +20,7 @@ RUN apt install -yq firefox \
     netcat \
     kazam \
     language-pack-zh* \
-    chinese* \
+    language-pack-ja \
+    language-pack-ko \
     fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
 USER gitpod
