@@ -17,5 +17,6 @@ RUN apt update && \
 RUN apt install -yq firefox \
     pulseaudio \
     pavucontrol \
-    netcat
+    netcat \
+    Kazam
 USER gitpod
