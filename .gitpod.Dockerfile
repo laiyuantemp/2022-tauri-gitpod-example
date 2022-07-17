@@ -22,5 +22,6 @@ RUN apt install -yq firefox \
     language-pack-zh* \
     language-pack-ja \
     language-pack-ko \
-    fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
+    fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core \
+    ffmpeg
 USER gitpod
