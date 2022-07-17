@@ -23,13 +23,8 @@ RUN apt install -yq firefox \
     language-pack-ja \
     language-pack-ko \
     fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core \
-    ffmpeg
-    
-FROM gitpod/workspace-full:latest
-# optional: use a custom apache config.
-COPY apache.conf /etc/apache2/apache2.conf
-# optional: change document root folder. It's relative to your git working copy.
-ENV APACHE_DOCROOT_IN_REPO="www"
+    ffmpeg \
+    apache2
 
 USER gitpod
 
